@@ -1,0 +1,33 @@
+CONFIG_NAME: 'attn2'
+
+DATASET_NAME: 'birds'
+DATA_DIR: '../data/birds'
+GPU_ID: 0
+WORKERS: 1
+
+B_VALIDATION: False  # True  # False
+TREE:
+    BRANCH_NUM: 3
+
+
+TRAIN:
+    ATTENTION: 'activated_general_qwk'
+    FLAG: False
+    #NET_G: '/content/drive/MyDrive/attnGAN/output/birds_attn2_act_general_qwk_1/Model/netG_epoch_200.pth'
+    #NET_G: '/content/drive/MyDrive/attnGAN/output/birds_attn2_act_general_2/Model/netG_epoch_300.pth'
+    NET_G: '/content/drive/MyDrive/attnGAN/output/birds_attn2_act_general_qwk_3/Model/netG_epoch_400.pth'
+    B_NET_D: False
+    BATCH_SIZE: 20 #100
+    NET_E: '../DAMSMencoders/bird/text_encoder200.pth'
+
+
+GAN:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    R_NUM: 2
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
+    WORDS_NUM: 25
