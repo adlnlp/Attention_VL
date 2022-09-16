@@ -5,6 +5,7 @@ __<p align="center">Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah 
 
 ## Set Up
 This paper analyzes the effect of different attention alignment calculation scores based on the following four Vision-and-Language (VL) tasks. We follow the instructions from their respective repositories to set up the environment and prepare the datasets.
+
 - 
 -
 -
