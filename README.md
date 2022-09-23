@@ -49,6 +49,7 @@ The codes in our repository have the attention calculation part modified for eac
   author    = {Cao, Feiqi and Han, Soyeon Caren and Long, Siqu and Xu, Changwei, and Poon, Josiah},
   booktitle = {Proceedings of the 30th International Conference on Computational Linguistics},
   publisher = {International Committee on Computational Linguistics},
+  month     = {oct},
   year      = {2022}
 }
 ```
