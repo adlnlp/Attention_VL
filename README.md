@@ -28,3 +28,16 @@ The codes in our repository have the attention calculation part modified for eac
 - Text-to-Image Generation: 
   - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/M4C)
   - sample commands to run experiments on Text-VQA:
+  ```
+  python train.py --config ./configs/m4c_tvqa_n4.yml --tag scaled_dot
+  ```
+  ```
+  python train.py --config ./configs/m4c_tvqa_n4_dot.yml --tag dot
+  ```
+  ```
+  python train.py --config ./configs/m4c_tvqa_n4_kwq.yml --tag general_kwq
+  ```
+  ```
+  python train.py --config ./configs/m4c_tvqa_n4_biased_kwq.yml --tag biased_general_kwq
+  ```
+  ...
