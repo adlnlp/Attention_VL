@@ -14,7 +14,17 @@ This paper analyzes the effect of different attention alignment calculation scor
 ## Run Experiments
 The codes in our repository have the attention calculation part modified for each of the above base models. We provide the instructions for running our codes/experiments:
 
-- Text-to-Image Generation: [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/AttnGan/source_code), [sample tutorial to run experiments on MSCOCO](https://github.com/adlnlp/Attention_VL/blob/main/AttnGan/attnGan_coco.ipynb), [sample tutorial to run experiments on CUB](https://github.com/adlnlp/Attention_VL/blob/main/AttnGan/attnGAN_birds.ipynb)
-- Text-and-Image Matching: [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/SCAN/source%20code), [sample tutorial to run experiments on MSCOCO](https://github.com/adlnlp/Attention_VL/blob/main/SCAN/run_MScoco.ipynb), [sample tutorial to run experiments on Flickr30k](https://github.com/adlnlp/Attention_VL/blob/main/SCAN/run_F30k.ipynb)
-- Visual Question Answering: [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/MAC/source_code), [sample tutorial to run experiments on CLEVR](https://github.com/adlnlp/Attention_VL/blob/main/MAC/mac.ipynb)
-- Text-to-Image Generation: [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/M4C), sample commands to run experiments on Text-VQA:
+- Text-to-Image Generation: 
+  - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/AttnGan/source_code)
+  - [sample tutorial to run experiments on MSCOCO](https://github.com/adlnlp/Attention_VL/blob/main/AttnGan/attnGan_coco.ipynb)
+  - [sample tutorial to run experiments on CUB](https://github.com/adlnlp/Attention_VL/blob/main/AttnGan/attnGAN_birds.ipynb)
+- Text-and-Image Matching: 
+  - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/SCAN/source%20code)
+  - [sample tutorial to run experiments on MSCOCO](https://github.com/adlnlp/Attention_VL/blob/main/SCAN/run_MScoco.ipynb)
+  - [sample tutorial to run experiments on Flickr30k](https://github.com/adlnlp/Attention_VL/blob/main/SCAN/run_F30k.ipynb)
+- Visual Question Answering: 
+  - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/MAC/source_code)
+  - [sample tutorial to run experiments on CLEVR](https://github.com/adlnlp/Attention_VL/blob/main/MAC/mac.ipynb)
+- Text-to-Image Generation: 
+  - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/M4C)
+  - sample commands to run experiments on Text-VQA:
