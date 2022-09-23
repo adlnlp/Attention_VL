@@ -55,3 +55,5 @@ The codes in our repository have the attention calculation part modified for eac
 ```
 
 ## Qualitative Examples
+
+<p align="center"><img src="figures/publaynet_case_study.png" width="600" /></p>
