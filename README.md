@@ -10,3 +10,11 @@ This paper analyzes the effect of different attention alignment calculation scor
 - Text-and-Image Matching: [SCAN](https://arxiv.org/pdf/1803.08024.pdf) ([Github](https://github.com/kuanghuei/SCAN))
 - Visual Question Answering: [MAC](https://arxiv.org/pdf/1803.03067.pdf) ([Github](https://github.com/stanfordnlp/mac-network))
 - Text-to-Image Generation: [M4C](https://arxiv.org/pdf/1911.06258.pdf) (Please take note that we referred to the base code of [SAM4C Github](https://github.com/yashkant/sam-textvqa) and modified the config to include only classic Self-Attention Layers in the model, which becomes identical to the structure of M4C model)
+
+## Run Experiments
+The codes in our repository have the attention calculation part modified for each of the above base models. We provide the instructions for running our codes/experiments:
+
+- Text-to-Image Generation: 
+- Text-and-Image Matching: 
+- Visual Question Answering: 
+- Text-to-Image Generation: 
