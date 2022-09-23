@@ -58,4 +58,15 @@ The codes in our repository have the attention calculation part modified for eac
 
 We visualised the prediction interpretability of the best and worst attention alignment calculation method for each task. Here are some examples. For more details please refer to our paper.
 
-<p align="center"><img src="figures/publaynet_case_study.png" width="600" /></p>
+- Text-to-Image Generation: 
+  <p align="center"><img src="figures/AttnGAN_analysis_1.jpg" width="600" /></p>
+  <p align="center"><img src="figures/AttnGAN_analysis_2.jpg" width="600" /></p>
+- Text-and-Image Matching: 
+  <p align="center"><img src="figures/SCAN_analysis_1.jpg" width="600" /></p>
+  <p align="center"><img src="figures/SCAN_analysis_2.jpg" width="600" /></p>
+- Visual Question Answering: 
+  <p align="center"><img src="figures/MAC_analysis_1.jpg" width="600" /></p>
+  <p align="center"><img src="figures/MAC_analysis_2.jpg" width="600" /></p>
+- Text-based Visual Question Answering: 
+  <p align="center"><img src="figures/M4C_analysis_1.jpg" width="600" /></p>
+  <p align="center"><img src="figures/M4C_analysis_2.jpg" width="600" /></p>
