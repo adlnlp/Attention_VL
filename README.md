@@ -56,4 +56,6 @@ The codes in our repository have the attention calculation part modified for eac
 
 ## Qualitative Examples
 
+We visualised the prediction interpretability of the best and worst attention alignment calculation method for each task. Here are some examples. For more details please refer to our paper.
+
 <p align="center"><img src="figures/publaynet_case_study.png" width="600" /></p>
