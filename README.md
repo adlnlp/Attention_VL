@@ -41,3 +41,14 @@ The codes in our repository have the attention calculation part modified for eac
   python train.py --config ./configs/m4c_tvqa_n4_biased_kwq.yml --tag biased_general_kwq
   ```
   ...
+
+## Citation
+```
+@inproceedings{cao2022attentionvl,
+  title     = {Understanding Attention for Vision-and-Language Tasks},
+  author    = {Cao, Feiqi and Han, Soyeon Caren and Long, Siqu and Xu, Changwei, and Poon, Josiah},
+  booktitle = {Proceedings of the 30th International Conference on Computational Linguistics},
+  publisher = {International Committee on Computational Linguistics},
+  year      = {2022}
+}
+```
