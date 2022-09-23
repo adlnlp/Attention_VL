@@ -6,7 +6,7 @@ __<p align="center">Feiqi Cao, Soyeon Caren Han, Siqu Long, Changwei Xu, Josiah 
 ## Set Up
 This paper analyzes the effect of different attention alignment calculation scores based on the following four Vision-and-Language (VL) tasks. We follow the instructions from their respective repositories to set up the environment and prepare the datasets.
 
--
--
-- 
-- 
+- Text-to-Image Generation: [AttnGAN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_AttnGAN_Fine-Grained_Text_CVPR_2018_paper.pdf) ([Github](https://github.com/taoxugit/AttnGAN))
+- Text-and-Image Matching: [SCAN](https://arxiv.org/pdf/1803.08024.pdf) ([Github](https://github.com/kuanghuei/SCAN))
+- Visual Question Answering (VQA): [MAC](https://arxiv.org/pdf/1803.03067.pdf)([Github](https://github.com/stanfordnlp/mac-network) )
+- Text-to-Image Generation: [M4C](https://arxiv.org/pdf/1911.06258.pdf) (Please take note that we referred to the base code of [SAM4C Github](https://github.com/yashkant/sam-textvqa) and modified their config to include only 6 classic Self-Attention Layers in the model, which becomes identical to the structure of M4C model)
