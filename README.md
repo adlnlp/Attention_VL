@@ -9,7 +9,7 @@ This paper analyzes the effect of different attention alignment calculation scor
 - Text-to-Image Generation: [AttnGAN](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_AttnGAN_Fine-Grained_Text_CVPR_2018_paper.pdf) ([Github](https://github.com/taoxugit/AttnGAN))
 - Text-and-Image Matching: [SCAN](https://arxiv.org/pdf/1803.08024.pdf) ([Github](https://github.com/kuanghuei/SCAN))
 - Visual Question Answering: [MAC](https://arxiv.org/pdf/1803.03067.pdf) ([Github](https://github.com/stanfordnlp/mac-network))
-- Text-to-Image Generation: [M4C](https://arxiv.org/pdf/1911.06258.pdf) (Please take note that we referred to the base code of [SAM4C Github](https://github.com/yashkant/sam-textvqa) and modified the config to include only classic Self-Attention Layers in the model, which becomes identical to the structure of M4C model)
+- Text-based Visual Question Answering: [M4C](https://arxiv.org/pdf/1911.06258.pdf) (Please take note that we referred to the base code of [SAM4C Github](https://github.com/yashkant/sam-textvqa) and modified the config to include only classic Self-Attention Layers in the model, which becomes identical to the structure of M4C model)
 
 ## Run Experiments
 The codes in our repository have the attention calculation part modified for each of the above base models. We provide the instructions for running our codes/experiments:
@@ -25,7 +25,7 @@ The codes in our repository have the attention calculation part modified for eac
 - Visual Question Answering: 
   - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/MAC/source_code)
   - [sample tutorial to run experiments on CLEVR](https://github.com/adlnlp/Attention_VL/blob/main/MAC/mac.ipynb)
-- Text-to-Image Generation: 
+- Text-based Visual Question Answering: 
   - [experiment source code and configs](https://github.com/adlnlp/Attention_VL/tree/main/M4C)
   - sample commands to run experiments on Text-VQA:
   ```
